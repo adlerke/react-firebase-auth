@@ -1,0 +1,111 @@
+#page-home {
+    height: 100vh;
+  
+    background: url('../../assets/logo.svg') no-repeat 700px bottom;
+  }
+  
+  #page-home .content {
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #page-home .content header {
+    margin: 48px 0 0;
+  }
+  
+  #page-home .content main {
+    flex: 1;
+    max-width: 560px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #page-home .content main h1 {
+    font-size: 54px;
+    color: var(--title-color);
+  }
+  
+  #page-home .content main p {
+    font-size: 16px;
+    margin-top: 24px;
+    line-height: 38px;
+  }
+  
+  #page-home .content main a#sign-in {
+    width: 100%;
+    max-width: 360px;
+    height: 40px;
+    background: var(--primary-color);
+    border-radius: 4px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  
+    margin-top: 40px;
+    transition: .3s;
+  }
+  #page-home .content main a#sign-up {
+ color: var(--title-color);
+
+  }
+  #page-home .content main a#sign-in span {
+    display: block;
+    background: rgba(0, 0, 0, 0.08);
+    width: 72px;
+    height: 72px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+  }
+  
+  #page-home .content main a span svg {
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+  }
+  
+  #page-home .content main a strong {
+    flex: 1;
+    text-align: center;
+    color: #FFF;
+  }
+  
+  #page-home .content main a#sign-in:hover {
+    background: #3D3429;
+  }
+  
+  @media(max-width: 900px) {
+    #page-home .content {
+      align-items: center;
+      text-align: center;
+    }
+  
+    #page-home .content header {
+      margin: 48px auto 0;
+    }
+  
+    #page-home .content main {
+      align-items: center;
+    }
+  
+    #page-home .content main h1 {
+      font-size: 42px;
+    }
+  
+    #page-home .content main p {
+      font-size: 24px;
+    }
+  }
+  
