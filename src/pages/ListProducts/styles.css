@@ -15,7 +15,7 @@
 }
 
 .table-section table th{
-    color: #969cb3;
+    color: var(--title-color);
     font-weight: normal;
     padding: 20px 32px;
     text-align: left;

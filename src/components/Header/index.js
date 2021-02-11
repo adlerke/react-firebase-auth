@@ -4,8 +4,10 @@ import firebaseConfig from "../../firebase";
 import { AuthContext } from '../../context/Auth'
 import "./styles.css";
 
-function Header(props) {
+function Header() {
 const {currentUser} = useContext(AuthContext)
+
+console.log(currentUser)
   return (
     <div className="header-container">
       <header>
