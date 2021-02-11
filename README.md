@@ -1,3 +1,10 @@
+## Projeto de autenticação por email e senha usando React e Firebase.  🚀
+
+### Instruções
+
+- Configure o seu .env com suas credenciais do FireBase, exemplo em `.env.example`.
+- Instale todas as dependencias rodando `yarn`.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
